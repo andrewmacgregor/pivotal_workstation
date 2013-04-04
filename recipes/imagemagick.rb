@@ -1,1 +1,1 @@
-brew "imagemagick"
+brew "imagemagick" --with-ghostscript
