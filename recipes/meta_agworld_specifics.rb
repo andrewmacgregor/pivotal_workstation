@@ -18,5 +18,5 @@ unless brew_installed? "libiconv"
   brew "libiconv"
 end
 
-
 include_recipe "pivotal_workstation::qt"
+include_recipe "pivotal_workstation::github_ssh_keys"
